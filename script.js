@@ -66,7 +66,7 @@ const dropHandler = (event) => {
     const tileId = event.dataTransfer.getData('objId')
     const tileTargeted = document.getElementById(tileId)
     console.log(tileTargeted,dropzone)
-    //gameUpdate(tileTargeted,dropzone)
+    gameUpdate(tileTargeted,dropzone)
 }
 
 const dragHandler = (event) => {
